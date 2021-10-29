@@ -178,8 +178,8 @@ class UserInteraction(object):
         logfile = open(log_file, 'w')
         logfile.write("Bam_file,Percent_coverage,avg_depth,median_coverage\n")
         for result in results:
-            logfile.write(f"{result.bam_files[0]},{result.sample_mean},"\
-            f"{result.breadth_of_coverage},{result.sample_median}\n")
+            logfile.write(f"{result.bam_files[0]},{result.breadth_of_coverage},"\
+            f"{result.sample_mean},{result.sample_median}\n")
         logfile.close()
         print("Done")
 
