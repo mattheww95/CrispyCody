@@ -3,7 +3,7 @@ Calculate Breadth of coverage from either a directory of bam and bai files, or f
 
 FOR THE CODIES OUT THERE:
 
-git clone https://github.com/mattheww95/seq-calc.git
+git clone https://github.com/mattheww95/CrispyCody.git
 cd ./crispy_cody
 python3 setup.py install
 An environment.yml file is included in the directory to create a conda envrionment. This script requires pysam, so it will only run on linux (maybe mac too, but who the heck knows). Eventually crispy cody will get crispier, by adding in the ability to add the depth of a given postion to a provided VCF
